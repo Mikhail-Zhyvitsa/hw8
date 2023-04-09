@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+  font-weight: 500;
+}
+.header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+h1 {
+  display: inline;
+  text-decoration: double underline;
+}
+.block1 {
+  background-color: rgb(150, 222, 231);
+  margin: 150px 200px auto;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid solid dashed dashed;
+  border-color: rgb(65, 122, 124);
+}
+.content1:first-letter {
+  padding-left: 35px;
+  font-size: 25px;
+  color: rgb(91, 159, 182);
+}
+.title1 {
+  text-decoration: underline;
+  padding-left: 25px;
+  padding-top: 20px;
+  color: rgb(91, 159, 182);
+}
+.color1 {
+  color: rgb(91, 159, 182);
+}
+.content1 {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.table1 {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table2 {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.underline {
+  text-decoration: underline dotted;
+  text-decoration-color: rgb(44, 110, 143);
+  color: rgb(44, 110, 143);
+}
+.text1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: overline;
+}
+.block2 {
+  background-color: rgb(194, 194, 194);
+  margin: 200px 200px auto;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid solid dashed dashed;
+  border-color: rgb(81, 83, 83);
+}
+.title2 {
+  text-decoration: underline;
+  padding-left: 25px;
+  padding-top: 20px;
+  color: rgb(99, 100, 100);
+}
+.color2 {
+  color: rgb(99, 100, 100);
+}
+.content2:first-letter {
+  padding-left: 35px;
+  font-size: 25px;
+  color: rgb(99, 100, 100);
+}
+.content2 {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.table3 {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: overline;
+}
+.parent {
+  text-decoration: underline dashed;
+  text-decoration-color: rgb(99, 100, 100);
+  color: rgb(99, 100, 100);
+}
+.table4 {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.block3 {
+  background-color: rgb(158, 223, 156);
+  margin: 200px 200px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid solid dashed dashed;
+  border-color: rgb(1, 53, 19);
+}
+.title3 {
+  text-decoration: underline;
+  padding-left: 25px;
+  padding-top: 20px;
+  color: rgb(3, 161, 3);
+}
+.color3 {
+  color: rgb(3, 161, 3);
+}
+.content3:first-letter {
+  padding-left: 35px;
+  font-size: 25px;
+  color: rgb(3, 161, 3);
+}
+.content3 {
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.table5 {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: overline;
+}
+.table6 {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.underline2 {
+  text-decoration: wavy underline;
+  text-decoration-color: rgb(3, 161, 3);
+  color: rgb(3, 161, 3);
+}
+.box1 {
+  width: 300px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  right: 40px;
+  top: 100px;
+  background-image: url(img/charlotte.jpeg);
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+  outline: 3px solid black;
+}
+.box2 {
+  width: 300px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  right: 40px;
+  top: 1000px;
+  background-image: url(img/tiramisu.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+  outline: 3px solid black;
+}
+.box3 {
+  width: 300px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  right: 40px;
+  bottom: -1090px;
+  background-image: url(img/cookies.jpeg);
+  background-repeat: no-repeat;
+  background-size: 300px 200px;
+  outline: 3px solid black;
+}
